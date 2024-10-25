@@ -1,21 +1,32 @@
 *{
-    color: rgb(0, 0, 71);
-    font-family: "PT Sans", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-body{
+    color: rgb(0, 0, 107);
     background-color:rgb(249, 245, 238)
 }
 
-h1{
-    color: rgb(0, 0, 71);
-    text-align: center;
-    font-family: "PT Sans", sans-serif;
+
+header{
+    display: flex;
+    align-items: center;
+}
+
+header h1{
+    text-align: left;
+    font-family: "Russo One", serif;
     font-weight: 400;
     font-style: normal;
 }
-p{
-    color: rgb(0, 0, 71);
+
+.logo{
+    width: 120px;
+    height: auto;
 }
+
+
+h1{
+    text-align: center;
+    font-family: "Russo One", serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+

@@ -34,9 +34,6 @@ header h2{
 .topico{
     position: relative;
     color: rgb(0, 0, 107);
-    display: flex;
-    align-items: center;
-    gap: 1px;
 }
 
 .topico p{
@@ -49,15 +46,16 @@ header h2{
     position: absolute;
     background-color:rgb(217, 216, 213);
     border-radius: 5px;
-    z-index: 1;
+    height:180px;
 }
 
 .temas a {
     display: block;
     color: rgb(0, 0, 107);
-    padding: 10px;
+    padding: 5px;
     text-decoration:none;
     margin-top: 10px;
+    width: 180px;
 }
 .temas a:hover {
     color: rgb(104, 104, 104);

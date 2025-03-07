@@ -76,14 +76,82 @@ img{
 .imagem{
     text-align: center;
 }
-#formulavm{
+#formula{
+    font-size: 50px; /* Ajusta o tamanho da fórmula */
+    color: #000000; /* Altera a cor da fórmula (neste caso, um tom de laranja) */
+}
+#formulas{
+    font-size: 50px; /* Ajusta o tamanho da fórmula */
+    color: #000000; /* Altera a cor da fórmula (neste caso, um tom de laranja) */
+}
+#formulaz{
+    font-size: 50px; /* Ajusta o tamanho da fórmula */
+    color: #000000; /* Altera a cor da fórmula (neste caso, um tom de laranja) */
+}
+#formulap{
+    font-size: 50px; /* Ajusta o tamanho da fórmula */
+    color: #000000; /* Altera a cor da fórmula (neste caso, um tom de laranja) */
+}
+#formulay{
+    font-size: 50px; /* Ajusta o tamanho da fórmula */
+    color: #000000; /* Altera a cor da fórmula (neste caso, um tom de laranja) */
+}
+#formulai{
+    font-size: 50px; /* Ajusta o tamanho da fórmula */
+    color: #000000; /* Altera a cor da fórmula (neste caso, um tom de laranja) */
+}
+#formulah{
+    font-size: 50px; /* Ajusta o tamanho da fórmula */
+    color: #000000; /* Altera a cor da fórmula (neste caso, um tom de laranja) */
+}
+#formulau{
+    font-size: 50px; /* Ajusta o tamanho da fórmula */
+    color: #000000; /* Altera a cor da fórmula (neste caso, um tom de laranja) */
+}
+#formulab{
+    font-size: 30px; /* Ajusta o tamanho da fórmula */
+    color: #000000; /* Altera a cor da fórmula (neste caso, um tom de laranja) */
+}
+#formulac{
+    font-size: 50px; /* Ajusta o tamanho da fórmula */
+    color: #000000; /* Altera a cor da fórmula (neste caso, um tom de laranja) */
+}
+#formulad{
+    font-size: 50px; /* Ajusta o tamanho da fórmula */
+    color: #000000; /* Altera a cor da fórmula (neste caso, um tom de laranja) */
+}
+#formulae{
+    font-size: 30px; /* Ajusta o tamanho da fórmula */
+    color: #000000; /* Altera a cor da fórmula (neste caso, um tom de laranja) */
+}
+#formulaf{
+    font-size: 50px; /* Ajusta o tamanho da fórmula */
+    color: #000000; /* Altera a cor da fórmula (neste caso, um tom de laranja) */
+}
+#formulag{
+    font-size: 50px; /* Ajusta o tamanho da fórmula */
+    color: #000000; /* Altera a cor da fórmula (neste caso, um tom de laranja) */
+}
+#formulaj{
+    font-size: 50px; /* Ajusta o tamanho da fórmula */
+    color: #000000; /* Altera a cor da fórmula (neste caso, um tom de laranja) */
+}
+#formulak{
+    font-size: 50px; /* Ajusta o tamanho da fórmula */
+    color: #000000; /* Altera a cor da fórmula (neste caso, um tom de laranja) */
+}
+#formulam{
+    font-size: 50px; /* Ajusta o tamanho da fórmula */
+    color: #000000; /* Altera a cor da fórmula (neste caso, um tom de laranja) */
+}#formulan{
+    font-size: 50px; /* Ajusta o tamanho da fórmula */
+    color: #000000; /* Altera a cor da fórmula (neste caso, um tom de laranja) */
+}#formulaq{
     font-size: 50px; /* Ajusta o tamanho da fórmula */
     color: #000000; /* Altera a cor da fórmula (neste caso, um tom de laranja) */
 }
 .content-wrapper {
-    display: flex; /* Exibe o main e o aside lado a lado */
-    justify-content: space-between; /* Garante que o main e o aside fiquem afastados */
-    gap: 20px; /* Espaço entre o main e o aside */
+    display: flex; /* Usamos flexbox para organizar os elementos lado a lado */
+    justify-content: space-between; /* Adiciona espaço entre o main e o aside */
+    padding: 20px; /* Para adicionar um pouco de espaço ao redor do conteúdo */
 }
-
-  

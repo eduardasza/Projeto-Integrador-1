@@ -57,6 +57,15 @@
                 <p>Num movimento variado, seja v1 a velocidade escalar do móvel no instante t1, e v2 a velocidade escalar no instante posterior t2. Seja Sv 5 v2  v1 a variação da velocidade no intervalo de tempo St. Observe que a aceleração escalar média é a grandeza que indica quanto varia a velocidade escalar num dado intervalo de tempo. . A aceleração escalar média am no intervalo de tempo St é, por definição: 
                 </p>
                 <img src="aceleração.png" alt="">
+                <div id="formulae"></div>
+                <script src="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/katex.min.js"></script>
+
+                <script>
+                const formulae =" v = v_0 + a \\cdot t \\\\";
+                const elemente = document.getElementById('formulae');
+                katex.render(formulae, elemente);
+                </script><br>
+                
                 <p>Se a variação da velocidade Sv estiver em m/s (metros por segundo) e o intervalo de tempo St estiver em s (segundos), a aceleração ___ Sv St será medida em m/s ____ s (metros por segundo por segundo), que se indica por m/s2 (metros por segundo ao quadrado). De modo geral, a unidade de aceleração é o quociente da unidade de velocidade pela unidade de tempo: km/h _____ s , cm/s _____ s , m/s ____ s , km/h _____ min , km/h _____ h etc.
                 </p>
                 <p>A aceleração escalar pode ser positiva ou negativa, conforme Sv seja positivo ou negativo, já que St é positivo. No movimento uniforme a velocidade escalar é constante e a aceleração escalar é nula. Quando a aceleração escalar instantânea é a mesma em todos os instantes, ela coincide com a aceleração escalar média em qualquer intervalo de tempo. 

@@ -76,4 +76,14 @@ img{
 .imagem{
     text-align: center;
 }
+#formulavm{
+    font-size: 50px; /* Ajusta o tamanho da fórmula */
+    color: #000000; /* Altera a cor da fórmula (neste caso, um tom de laranja) */
+}
+.content-wrapper {
+    display: flex; /* Exibe o main e o aside lado a lado */
+    justify-content: space-between; /* Garante que o main e o aside fiquem afastados */
+    gap: 20px; /* Espaço entre o main e o aside */
+}
 
+  

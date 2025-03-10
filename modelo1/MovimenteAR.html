@@ -56,12 +56,11 @@
                 <h2>Aceleração escalar</h2>
                 <p>Num movimento variado, seja v1 a velocidade escalar do móvel no instante t1, e v2 a velocidade escalar no instante posterior t2. Seja Sv 5 v2  v1 a variação da velocidade no intervalo de tempo St. Observe que a aceleração escalar média é a grandeza que indica quanto varia a velocidade escalar num dado intervalo de tempo. . A aceleração escalar média am no intervalo de tempo St é, por definição: 
                 </p>
-                <img src="aceleração.png" alt="">
                 <div id="formulae"></div>
                 <script src="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/katex.min.js"></script>
 
                 <script>
-                const formulae =" v = v_0 + a \\cdot t \\\\";
+                const formulae ="\\frac{v_2 - v_1}{t_2 - t_1}";
                 const elemente = document.getElementById('formulae');
                 katex.render(formulae, elemente);
                 </script><br>
@@ -79,7 +78,11 @@
 
         <h2>Movimento acelerado e movimento retardado</h2>
         <p>Em Cinemática, de acordo com a orientação da trajetória, a velocidade escalar pode ser positiva ou negativa. Assim, ao nos referirmos a acelerado ou retardado, devemos trabalhar com o módulo da velocidade escalar. Quando aceleramos ou retardamos um veículo, estamos aumentando ou diminuindo o módulo da velocidade escalar.</p>
-        <img src="MovAceleraeRetardado.png" alt="">
+        <div class="caixa">
+        <p>movimento <strong>acelerado: </strong><strong>módulo</strong> da velocidade escalar <strong>aumenta</strong> no decurso do tempo</p> <br>
+        <p>movimento <strong>retardado: </strong><strong>módulo</strong> da velocidade escalar <strong>diminui</strong> no decurso do tempo</p> <br>
+        </div>
+        <br>
         <p>O sinal da aceleração escalar depende do sinal da variação da velocidade (Sv) e, de acordo com a orientação da trajetória, o movimento acelerado pode ser progressivo (a favor da orientação da trajetória) ou retrógrado (contra a orientação da trajetória). O mesmo ocorre no movimento retardado</p>
         <img src="MOvimentoAcelerado.png" alt="">
         <img src="MovimentoRetardado.png" alt="">
@@ -91,7 +94,14 @@
        </p>
         <h2>Função horária da velocidade no MUV</h2>
         <div style="display: flex;">
-            <img src="velocidadeMUV.png" alt="">
+            <div id="formulaf"></div>
+            <script src="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/katex.min.js"></script>
+
+            <script>
+                const formulaf = "v = v_0 + t";
+                const elementf = document.getElementById('formulaf');
+                katex.render(formulaf, elementf);
+            </script>
             <div style="margin-top:50px;margin-left: 50px;">
                 <p>v=velocidade final</p>
                 <p>V0= velocidade inicial</p>
@@ -102,6 +112,15 @@
         <div>
             <img src="espaçoMUV.png" alt="">
         </div>
+        <div id="formulag"></div>
+            <script src="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/katex.min.js"></script>
+
+            <script>
+                const formulag = "s = s_0 + v_0 t + \\frac{1}{2} a t^2";
+                const elementg= document.getElementById('formulag');
+                katex.render(formulag, elementg);
+            </script>
+
         <h2>Velocidade escalar média no MUV</h2>
         <img src="VMemMUV.png" alt="">
         <h2>Equação de Torricelli para o MUV</h2>

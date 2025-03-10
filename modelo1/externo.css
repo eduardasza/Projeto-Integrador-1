@@ -155,3 +155,10 @@ img{
     justify-content: space-between; /* Adiciona espaço entre o main e o aside */
     padding: 20px; /* Para adicionar um pouco de espaço ao redor do conteúdo */
 }
+.caixa {
+        display: flex;
+        justify-content: center; /* Alinha horizontalmente */
+        align-items: center;     /* Alinha verticalmente */
+        height: 10vh;           /* Altura da div ocupa toda a altura da janela */
+        text-align: center; 
+}

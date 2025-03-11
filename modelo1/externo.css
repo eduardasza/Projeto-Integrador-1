@@ -162,3 +162,8 @@ img{
         height: 10vh;           /* Altura da div ocupa toda a altura da janela */
         text-align: center; 
 }
+.content-wrapper{
+    display: flex;
+    gap: 20px; /* Espaço entre o main e o aside */
+    padding: 20px;
+}
